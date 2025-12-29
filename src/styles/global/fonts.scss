@@ -1,0 +1,96 @@
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+
+
+@font-face {
+  font-family: "latolight";
+  src: url("src/assets/fonts/lato-lig-webfont.eot");
+  src: url("src/assets/fonts/lato-lig-webfont.woff") format("woff"),
+    url("src/assets/fonts/lato-lig-webfont.ttf") format("truetype"),
+    url("src/assets/fonts/lato-lig-webfont.svg") format("svg");
+}
+
+@font-face {
+  font-family: "latoregular";
+  src: url("src/assets/fonts/lato-reg-webfont.eot");
+  src: url("src/assets/fonts/lato-reg-webfont.woff") format("woff"),
+    url("src/assets/fonts/lato-reg-webfont.ttf") format("truetype"),
+    url("src/assets/fonts/lato-reg-webfont.svg") format("svg");
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+}
+
+.text-lg {
+  font-size: $font-size-large;
+}
+
+.link {
+  .highlight-color-1 & {
+    color: $highlight-color-text;
+
+    &:hover {
+      color: darken($highlight-color-text, 10%);
+    }
+  }
+
+  .highlight-color-2 & {
+    color: $highlight-color-2-text;
+
+    &:hover {
+      color: darken($highlight-color-2-text, 10%);
+    }
+  }
+}
+
+.text-light {
+  color: $text-color-light;
+}
+
+.text-color {
+  //before it was called text-primary but has conflict with Quasar
+  .highlight-color-1 & {
+    color: $highlight-color-text !important;
+  }
+
+  .highlight-color-2 & {
+    color: $highlight-color-2-text !important;
+  }
+
+  .highlight-color-3 & {
+    color: $highlight-color-3-text !important;
+  }
+}
+
+.text-danger {
+  color: $danger-color;
+}
+
+.text-highlighted {
+  .highlight-color-1 & {
+    background: $highlight-color-transparent-highlight;
+  }
+
+  .highlight-color-2 & {
+    background: $highlight-color-2-transparent-highlight;
+  }
+
+  .highlight-color-3 & {
+    background: $highlight-color-3-transparent-highlight;
+  }
+}
+
+strong,
+.strong {
+  font-weight: normal;
+  font-family: $font-family-regular;
+}
+
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+}

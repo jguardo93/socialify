@@ -1,0 +1,22 @@
+@import "src/styles/global/colors";
+@import "src/styles/global/variables";
+
+@mixin truncate() {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.limit-text-width {
+  max-width: $text-max-width;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}

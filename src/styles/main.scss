@@ -1,0 +1,29 @@
+@import "src/styles/global/variables";
+@import "src/styles/global/colors";
+@import "src/styles/global/mixins";
+@import "src/styles/global/fonts";
+@import "global/icons";
+@import "src/styles/global/sticky_footer";
+@import "src/styles/global/base";
+@import "global/images";
+@import "src/styles/global/spacing";
+@import "src/styles/global/button";
+@import "src/styles/global/alignment";
+@import "src/styles/global/labels";
+@import "src/styles/global/inputs";
+@import "global/modals";
+@import "src/styles/global/lists";
+@import "src/styles/global/form";
+
+body {
+  background: #fbfbfb;
+}
+
+.button-icon{
+  cursor: pointer;
+
+  &:hover{
+    color:red;
+    cursor: pointer;
+  }
+}

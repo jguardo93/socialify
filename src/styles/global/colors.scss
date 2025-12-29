@@ -1,0 +1,59 @@
+$standard-orange: #f7533b;
+$medium-orange: #ff6f43;
+$yellow: #fbee33;
+$shadow-orange: #d6472b;
+
+$standard-blue: #04bfda;
+$dark-blue: #2d4e60;
+$light-blue: #b6eeff;
+$shadow-blue: #1a87a0;
+$highlight-blue: #0faed8;
+$facebook-blue: #3b5998;
+$facebook-altblue: #1c3e8b;
+$twitter-blue: #00aced;
+$twitter-altblue: #4bd0f9;
+$instagram-color: #e1306c;
+$youtube-color: #fc0d1b;
+$resident-advisor-color: black;
+$indie-on-the-move-color: #e4c14a;
+
+$standard-grey: #d3d3d3;
+$dark-grey: #686868;
+$light-grey: #f4f4f4;
+$blueblack-grey: #2e2f31;
+$shadow-grey: #a9a9a9;
+
+$sidebar-bg: #2b303b;
+
+$highlight-color: #4be28d;
+$highlight-color-text: darken($highlight-color, 20%);
+$highlight-color-transparent-highlight-solid: #edfcf4;
+$highlight-color-transparent-highlight: rgba($highlight-color, 0.1);
+$highlight-color-transparent-highlight-border: rgba($highlight-color, 0.16);
+
+$highlight-color-2: #ef861a;
+$highlight-color-2-text: $highlight-color-2;
+$highlight-color-2-transparent-highlight: rgba($highlight-color-2, 0.12);
+$highlight-color-2-transparent-highlight-solid: #fef6f2;
+$highlight-color-2-transparent-highlight-border: rgba($highlight-color-2, 0.16);
+
+$highlight-color-3: #4a78d5;
+$highlight-color-3-text: blue;
+$highlight-color-3-transparent-highlight:rgba($highlight-color-3, 0.12);
+
+$input-focus-border-color: lighten($highlight-color, 10);
+
+$not-white: #acb2b7;
+
+$text-color: #333;
+$text-color-light: #999;
+
+
+$alert-warning-bg: #fdf8e5;
+$alert-warning-border: #f4e1c1;
+$alert-warning-text: #d7972f;
+$alert-danger-bg: lighten(#f2dede, 2%);
+$alert-danger-border: darken(#f2dede, 8%);
+$alert-danger-color: #a94442;
+
+$danger-color: #ed5153;
