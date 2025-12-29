@@ -13,6 +13,4 @@
 - Component library with QUASAR 2.0 for vue 3
 - CSS style pre-proccesors SCSS && SASS
 - Pinia (state management)
-#DEMO
-- FRONTEND: [demo frontend](http://telepbook2022.s3-website-us-east-1.amazonaws.com/) 
-- BACKEND: [demo frontend](http://telepbook2022.s3-website-us-east-1.amazonaws.com/) 
+
